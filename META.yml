@@ -1,0 +1,19 @@
+---
+abstract: 'provide faster JSON for Mojolicious apps using Cpanel::JSON::XS'
+author:
+  - 'Jeremy Zawodny <Jeremy@Zawodny.com>'
+build_requires:
+  Test::More: 0.88
+configure_requires:
+  ExtUtils::MakeMaker: 0
+dynamic_config: 0
+generated_by: 'Dist::Zilla version 5.025, CPAN::Meta::Converter version 2.143240'
+license: perl
+meta-spec:
+  url: http://module-build.sourceforge.net/META-spec-v1.4.html
+  version: 1.4
+name: Mojo-JSONXS
+requires:
+  Cpanel::JSON::XS: 3.0103
+  Mojolicious: 5.00
+version: 0.001
